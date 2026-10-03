@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Remove focus ring from all elements */
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional: Keep focus ring only for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #3b82f6 !important;
+  outline-offset: 2px !important;
+}

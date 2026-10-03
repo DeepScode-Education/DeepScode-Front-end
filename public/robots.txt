@@ -1,0 +1,12 @@
+# Allow all major search engines
+# Default rule for all other bots
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /login
+Disallow: /signup
+
+# Sitemap location (important for SEO)
+Sitemap: https://slate-academy.com/sitemap.xml

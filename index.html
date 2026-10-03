@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="google-site-verification" content="CHfxDFNIymYwh9ZR2Y52XXsXq-rjNTppa2gV_OWAgiw" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VCWZY4RRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-9VCWZY4RRN');
+  </script>
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/slate-favicon.png">
+  <link rel="apple-touch-icon" href="/slate-favicon.png">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://wijvgzkzdqqtzgbmqlsw.supabase.co" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://wijvgzkzdqqtzgbmqlsw.supabase.co" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+  <!-- Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+  </noscript>
+
+  <!--app-head-->
+
+  <!-- Static tags — always present, SSR overrides title/description/canonical above -->
+  <meta name="author" content="Slate Academy" />
+  <meta name="theme-color" content="#667eea" />
+  <meta name="robots" content="index, follow" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, 'Inter', sans-serif;
+      background-color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    .gradient-hero {
+      min-height: 50vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 0 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        padding: 0 1.5rem;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .container {
+        padding: 0 2rem;
+      }
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .gradient-hero {
+        padding: 1rem 2rem;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .loading-spinner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid #e2e8f0;
+      border-top-color: #667eea;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loaded .loading-spinner {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .btn-hero {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: white;
+      color: #667eea;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-hero:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+  </style>
+
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <style>
+      .loading-spinner {
+        display: none;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body>
+
+  <div class="loading-spinner" id="initial-loader">
+    <div class="spinner"></div>
+  </div>
+
+  <div id="root"><!--app-html--></div>
+
+  <!--app-data-->
+
+  <script>
+    (function () {
+      const root = document.getElementById('root');
+      const loader = document.getElementById('initial-loader');
+
+      if (root && root.innerHTML.trim().length > 0) {
+        if (loader) loader.style.display = 'none';
+        document.body.classList.add('loaded');
+      } else {
+        const removeSpinner = () => {
+          if (loader) {
+            loader.style.opacity = '0';
+            setTimeout(() => {
+              loader.style.display = 'none';
+              document.body.classList.add('loaded');
+            }, 300);
+          }
+        };
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', removeSpinner);
+        } else {
+          removeSpinner();
+        }
+      }
+
+      const prefetchOnHover = (url) => {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = url;
+        document.head.appendChild(link);
+      };
+
+      document.addEventListener("mouseenter", (e) => {
+        const target = e.target;
+
+        if (!(target instanceof Element)) return;
+
+        const link = target.closest('a[href*="/courses"]');
+
+        if (link && !link.hasAttribute("data-prefetched")) {
+          link.setAttribute("data-prefetched", "true");
+          prefetchOnHover("/courses");
+        }
+      }, true);
+
+      const loadMarketingScripts = () => {
+        if (window.__marketingScriptsLoaded) return;
+
+        window.__marketingScriptsLoaded = true;
+
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = window.gtag || function () {
+          window.dataLayer.push(arguments);
+        };
+
+        window.gtag('js', new Date());
+        window.gtag('config', 'AW-18216072059');
+        window.gtag('config', 'G-9VCWZY4RR');
+
+        const gtagScript = document.createElement('script');
+
+        gtagScript.async = true;
+        gtagScript.defer = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18216072059';
+
+        document.head.appendChild(gtagScript);
+
+        window.fbq = window.fbq || function () {
+          window.fbq.callMethod
+            ? window.fbq.callMethod.apply(window.fbq, arguments)
+            : window.fbq.queue.push(arguments);
+        };
+
+        if (!window._fbq) window._fbq = window.fbq;
+
+        window.fbq.push = window.fbq;
+        window.fbq.loaded = true;
+        window.fbq.version = '2.0';
+        window.fbq.queue = [];
+
+        const pixelScript = document.createElement('script');
+
+        pixelScript.async = true;
+        pixelScript.defer = true;
+        pixelScript.src = 'https://connect.facebook.net/en_US/fbevents.js';
+
+        document.head.appendChild(pixelScript);
+
+        window.fbq('init', '1809919890391793');
+        window.fbq('track', 'PageView');
+      };
+
+      const scheduleMarketingScripts = window.requestIdleCallback
+        ? (callback) => window.requestIdleCallback(callback, { timeout: 3000 })
+        : (callback) => window.setTimeout(callback, 1500);
+
+      if (document.readyState === 'complete') {
+        scheduleMarketingScripts(loadMarketingScripts);
+      } else {
+        window.addEventListener(
+          'load',
+          () => scheduleMarketingScripts(loadMarketingScripts),
+          { once: true }
+        );
+      }
+    })();
+  </script>
+
+  <script type="module" src="/src/main.tsx"></script>
+
+</body>
+
+</html>

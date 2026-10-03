@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
+  "installCommand": "npm install",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "functions": {
+    "api/ssr.ts": {
+      "maxDuration": 10,
+      "includeFiles": "dist/server/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/sitemap.xml",        "destination": "/sitemap.xml" },
+    { "source": "/robots.txt",         "destination": "/robots.txt" },
+    { "source": "/assets/(.*)",        "destination": "/assets/$1" },
+    { "source": "/slate-favicon.jpeg", "destination": "/slate-favicon.jpeg" },
+    { "source": "/slate-favicon.png",  "destination": "/slate-favicon.png" },
+    { "source": "/favicon(.*)",        "destination": "/favicon$1" },
+    { "source": "/(.*)\\.png",         "destination": "/$1.png" },
+    { "source": "/(.*)\\.jpg",         "destination": "/$1.jpg" },
+    { "source": "/(.*)\\.jpeg",        "destination": "/$1.jpeg" },
+    { "source": "/(.*)\\.ico",         "destination": "/$1.ico" },
+    { "source": "/(.*)\\.webp",        "destination": "/$1.webp" },
+    { "source": "/(.*)\\.svg",         "destination": "/$1.svg" },
+    { "source": "/(.*)\\.js",          "destination": "/$1.js" },
+    { "source": "/(.*)\\.css",         "destination": "/$1.css" },
+    { "source": "/(.*)\\.woff2",       "destination": "/$1.woff2" },
+    { "source": "/(.*)\\.woff",        "destination": "/$1.woff" },
+    { "source": "/",                   "destination": "/api/ssr" },
+    { "source": "/(.*)",               "destination": "/api/ssr" }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "Cross-Origin-Embedder-Policy", "value": "credentialless" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "Cross-Origin-Embedder-Policy", "value": "credentialless" }
+      ]
+    }
+  ]
+}
