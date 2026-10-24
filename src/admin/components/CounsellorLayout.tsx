@@ -65,7 +65,7 @@ const handleLogout = () => {
           <GraduationCap size={20} />
         </div> */}
         <div className="flex flex-col leading-none">
-          <span className="text-sm font-bold">Slate Academy</span>
+          <span className="text-sm font-bold">deepScode Education</span>
           <span className="text-[11px] text-muted-foreground">Counsellor Panel</span>
         </div>
       </Link>

@@ -55,7 +55,7 @@ const STATIC_SEO: Record<string, SeoResult> = {
   "/": {
     title: "Slate Academy: Best Designing and Marketing Institute in Delhi",
     description: "Join the best institute in Delhi for Graphic Design, UI/UX, Motion Graphics, 3D Design, Digital Marketing and Data Analytics courses with 100% placement support.",
-    keywords: ["graphic design course delhi", "ui ux design institute", "digital marketing course", "slate academy"],
+    keywords: ["graphic design course delhi", "ui ux design institute", "digital marketing course", "Slate Academy"],
     canonical: "https://slate-academy.com/",
   },
   "/courses": {
@@ -80,7 +80,7 @@ const STATIC_SEO: Record<string, SeoResult> = {
   description:
     "Explore Slate Academy placements with student success stories, hiring partners, career guidance, and 100% placement assistance for creative careers.",
   keywords: [
-    "slate academy placements",
+    "Slate Academy placements",
     "design institute placement",
     "graphic design jobs delhi"
   ],

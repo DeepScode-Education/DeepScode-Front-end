@@ -38,7 +38,7 @@ function esc(s = ""): string {
 }
 
 function buildHeadTags(seo: SeoData, url: string): string {
-  const title = seo.title || "Slate Academy: Best Designing & Marketing Institute in Delhi";
+  const title = seo.title || "deepScode Education: Best Designing & Marketing Institute in Delhi";
   const description =
     seo.description ||
     "Join the best institute in Delhi for Graphic Design, UI/UX, Motion Graphics, 3D Design, Digital Marketing & Data Analytics courses with 100% placement support.";

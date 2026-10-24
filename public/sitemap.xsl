@@ -3,7 +3,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Slate Academy - Sitemap</title>
+        <title>deepScode Education - Sitemap</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
@@ -126,7 +126,7 @@
       <body>
         <div class="container">
           <div class="header">
-            <h1>🗺️ Slate Academy Sitemap</h1>
+            <h1>🗺️ deepScode Education Sitemap</h1>
             <p>Complete list of all pages available for search engines</p>
             <div class="stats">
               <div class="stat-card">
@@ -199,8 +199,8 @@
           </div>
 
           <div class="footer">
-            <p>Generated for Slate Academy | Last updated: <xsl:value-of select="substring-before(substring-after(urlset/url/lastmod, 'T'), '+')"/></p>
-            <p>Gmail:- slateacademy3@gmail.com</p>
+            <p>Generated for deepScode Education | Last updated: <xsl:value-of select="substring-before(substring-after(urlset/url/lastmod, 'T'), '+')"/></p>
+            <p>Gmail:- ddeepscodeeducation@gmail.com</p>
           </div>
         </div>
       </body>

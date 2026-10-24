@@ -60,7 +60,7 @@ const SidebarContent = ({ onNavigate }: { onNavigate?: () => void }) => {
       {/* Brand */}
       <Link to="/mentor" className="flex items-center gap-2 px-5 py-5" onClick={onNavigate}>
         <div className="flex flex-col leading-none">
-          <span className="text-sm font-bold">Slate Academy</span>
+          <span className="text-sm font-bold">deepScode Education</span>
           <span className="text-[11px] text-muted-foreground">Mentor Panel</span>
         </div>
       </Link>

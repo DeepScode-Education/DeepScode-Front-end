@@ -791,7 +791,7 @@ export default function CMSPage() {
               <Input
                 value={newSectionTitle}
                 onChange={(e) => setNewSectionTitle(e.target.value)}
-                placeholder="Why Choose Slate Academy"
+                placeholder="Why Choose deepScode Education"
                 className="mt-1"
               />
             </div>

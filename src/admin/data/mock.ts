@@ -264,8 +264,8 @@ export const formsList = [
 ];
 
 export const seoPages = [
-  { id: "SE-01", page: "/", title: "Slate Academy — Learn Design, Code, Marketing", score: 92, issues: 1 },
-  { id: "SE-02", page: "/courses", title: "All Courses — Slate Academy", score: 88, issues: 2 },
+  { id: "SE-01", page: "/", title: "deepScode Education — Learn Design, Code, Marketing", score: 92, issues: 1 },
+  { id: "SE-02", page: "/courses", title: "All Courses — deepScode Education", score: 88, issues: 2 },
   { id: "SE-03", page: "/ui-ux-course", title: "UI/UX Design Course (₹25k) — Slate", score: 96, issues: 0 },
   { id: "SE-04", page: "/blog", title: "Slate Blog — Career, Tech & Design", score: 84, issues: 3 },
 ];
