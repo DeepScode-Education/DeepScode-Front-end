@@ -5,7 +5,7 @@ type FinalCTAProps = { data?: any };
 
 const FinalCTA = ({ data }: FinalCTAProps) => {
   const title = data?.title || "Your Story Isn't Written Yet.";
-  const subtitle = data?.subtitle || "Join thousands of learners who chose to pick up their slate and start building something brilliant.";
+  const subtitle = data?.subtitle || "Join thousands of learners who chose to pick up their DeepScode and start building something brilliant.";
   const button = data?.buttons?.[0] || data?.button || data?.button1 || { text: 'ENROL FOR FREE', link: '/courses' };
 
   return (

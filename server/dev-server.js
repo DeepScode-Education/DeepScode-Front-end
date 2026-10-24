@@ -6,7 +6,7 @@
 
 // const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // const ROOT = path.resolve(__dirname, "..");
-// const PORT = 5500;
+// const PORT = 5050;
 
 // async function createServer() {
 //   const app = express();
@@ -92,7 +92,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const PORT = 5500;
+const PORT = 5050;
 
 async function createServer() {
   const app = express();

@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/contexts/AuthContext";
-import logo from "@/assets/logo/latest-logo.svg";
+import logo from "@/assets/logo/latest-logo.png";
 import {
   fetchCoursesCatalog,
   type CatalogCourse,

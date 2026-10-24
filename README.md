@@ -91,7 +91,7 @@ bloom-skills-suite/
    ```
 
 5. **Open your browser**
-   - Navigate to `http://localhost:5500`
+   - Navigate to `http://localhost:5050`
 
 ## 📜 Available Scripts
 

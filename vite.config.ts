@@ -10,7 +10,7 @@
 // export default defineConfig(({ mode, isSsrBuild }) => ({
 //   server: {
 //     host: "::",
-//     port: 8800,
+//     port: 8080,
 //   },
 //   plugins: [
 //     react(),
@@ -154,7 +154,7 @@ const ROOT = process.cwd();
 export default defineConfig(({ mode, isSsrBuild }) => ({
   server: {
     host: "::",
-    port: 8800,
+    port: 8080,
     // NEW: required for Zoom Meeting SDK's SharedArrayBuffer usage
     // (video decoding). Without these, Zoom silently renders a black
     // canvas instead of the camera feed.

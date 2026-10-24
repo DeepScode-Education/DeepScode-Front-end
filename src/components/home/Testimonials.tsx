@@ -133,7 +133,7 @@ const Testimonials = ({ data }: Props) => {
         <div className="container">
           <div className="mb-12 text-center">
             <h2 className="text-3xl font-bold lg:text-4xl">
-              {data?.title || "WHAT SLATE-ERS ARE SAYING"}
+              {data?.title || "WHAT DeepScode-ERS ARE SAYING"}
             </h2>
             <p className="mt-3 text-muted-foreground">
               {data?.subtitle || "Real success stories from real career-changers"}
@@ -208,7 +208,7 @@ const Testimonials = ({ data }: Props) => {
         {/* Heading */}
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold lg:text-4xl">
-            {data?.title || "WHAT SLATE-ERS ARE SAYING"}
+            {data?.title || "WHAT DeepScode-ERS ARE SAYING"}
           </h2>
           <p className="mt-3 text-muted-foreground">
             {data?.subtitle || "Real success stories from real career-changers"}

@@ -116,7 +116,7 @@ const TrustSection = ({ data }: TrustProps) => {
         {/* Header */}
         <div className="text-center mb-10 sm:mb-14">
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground">
-            Why Slate
+            Why DeepScode
           </p>
 
           <h2 className="mt-3 text-xl sm:text-2xl lg:text-3xl font-bold text-slate-700">

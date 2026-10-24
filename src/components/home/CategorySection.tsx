@@ -17,39 +17,48 @@ type CategorySectionProps = { data?: any };
 
 // Static presentation metadata
 const CATEGORY_META = [
-  {
-    icon: "palette",
-    title: "GRAPHIC DESIGN",
-    slug: "graphic-design-course",
-    category: "Design",
-    desc: "Learn to tell visual stories through compelling designs made with the latest software.",
-    color: "text-pink-500",
-    bg: "bg-pink-50",
-  },
-  {
-    icon: "megaphone",
-    title: "MOTION GRAPHICS",
-    slug: "motion-graphics-design-course",
-    category: "Design",
-    desc: "Bring life to your visuals through animation and special effects.",
-    color: "text-amber-500",
-    bg: "bg-amber-50",
-  },
-  {
-    icon: "palette",
-    title: "UI/UX DESIGN",
-    slug: "ui-ux-design-course",
-    category: "Design",
-    desc: "Create aesthetic and engaging digital interfaces that impress and perform for business success.",
-    color: "text-pink-500",
-    bg: "bg-pink-50",
-  },
+  // {
+  //   icon: "palette",
+  //   title: "GRAPHIC DESIGN",
+  //   slug: "graphic-design-course",
+  //   category: "Design",
+  //   desc: "Learn to tell visual stories through compelling designs made with the latest software.",
+  //   color: "text-pink-500",
+  //   bg: "bg-pink-50",
+  // },
+  // {
+  //   icon: "megaphone",
+  //   title: "MOTION GRAPHICS",
+  //   slug: "motion-graphics-design-course",
+  //   category: "Design",
+  //   desc: "Bring life to your visuals through animation and special effects.",
+  //   color: "text-amber-500",
+  //   bg: "bg-amber-50",
+  // },
+  // {
+  //   icon: "palette",
+  //   title: "UI/UX DESIGN",
+  //   slug: "ui-ux-design-course",
+  //   category: "Design",
+  //   desc: "Create aesthetic and engaging digital interfaces that impress and perform for business success.",
+  //   color: "text-pink-500",
+  //   bg: "bg-pink-50",
+  // },
+  // {
+  //   icon: "code",
+  //   title: "3D DESIGN",
+  //   slug: "3d-design-course",
+  //   category: "3D",
+  //   desc: "Elevate your ideas through space designs, product mock-ups and cinematic effects.",
+  //   color: "text-blue-500",
+  //   bg: "bg-blue-50",
+  // },
   {
     icon: "code",
-    title: "3D DESIGN",
-    slug: "3d-design-course",
-    category: "3D",
-    desc: "Elevate your ideas through space designs, product mock-ups and cinematic effects.",
+    title: "WEB DEVELOPMENT",
+    slug: "web-development-course",
+    category: "Development",
+    desc: "Build dynamic websites and web applications with the latest technologies and frameworks.",
     color: "text-blue-500",
     bg: "bg-blue-50",
   },
@@ -91,7 +100,7 @@ const iconMap: Record<string, any> = {
 };
 
 const CategorySection = ({ data }: CategorySectionProps) => {
-  const title = data?.title || "What's on Your Slate?";
+  const title = data?.title || "What's on Your DeepScode?";
 
   const subtitle =
     data?.subtitle ||
