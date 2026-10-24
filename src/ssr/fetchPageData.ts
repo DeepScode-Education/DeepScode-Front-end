@@ -6,11 +6,11 @@ import type { SsrDataBag } from "./SsrDataContext";
 //   (
 //     (typeof import.meta !== "undefined" && import.meta.env?.VITE_API_BASE) ||
 //     process.env.VITE_API_BASE ||
-//     "https://slateserver1.onrender.com"
+//     "https://deepscode-backend-end.onrender.com"
 //   ) + "/api";
 
 const API_BASE =
-  (import.meta.env.VITE_API_BASE ?? "https://slateserver1.onrender.com") + "/api";
+  (import.meta.env.VITE_API_BASE ?? "https://deepscode-backend-end.onrender.com") + "/api";
 
 
 // Same server-only shared secret as src/ssr/fetchSeo.ts — see the comment

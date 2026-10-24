@@ -2,7 +2,7 @@
 // import { resolve } from "path";
 
 // const SITE_URL = "https://slate-academy.com";
-// const API_BASE = `${(process.env.VITE_API_BASE || "https://slateserver1.onrender.com").replace(/\/$/, "")}/api`;
+// const API_BASE = `${(process.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com").replace(/\/$/, "")}/api`;
 // const PAGE_SIZE = 100;
 
 // const staticRoutes = [

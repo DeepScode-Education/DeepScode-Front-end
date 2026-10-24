@@ -28,7 +28,7 @@ import { ParentInfoCard } from "./ParentInfoCard";
 import { FeeHistoryCard } from "./FeeHistoryCard";
 
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 const authHeaders = (): HeadersInit => {
   const token = localStorage.getItem("token");

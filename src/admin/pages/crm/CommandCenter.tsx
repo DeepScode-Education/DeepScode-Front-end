@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 // ── FIX: this page hits auth-protected endpoints (isCounsellor middleware,
 // which allows counsellor/admin/super_admin) but was sending zero headers,

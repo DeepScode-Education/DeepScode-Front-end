@@ -5,7 +5,7 @@
 // import { getToken, getAdminToken } from "@/integrations/client";
 
 // const VITE_API_BASE = import.meta.env.VITE_API_BASE as string | undefined;
-// const BASE_URL = VITE_API_BASE?.trim() || "https://slateserver1.onrender.com";
+// const BASE_URL = VITE_API_BASE?.trim() || "https://deepscode-backend-end.onrender.com";
 
 // /** Broadcast payload for the raise-hand feature (see registerLiveClassSockets
 //  * on the backend — requires a small server-side addition, see PR notes). */
@@ -101,7 +101,7 @@ import { io, Socket } from "socket.io-client";
 import { getToken, getAdminToken } from "@/integrations/client";
 
 const VITE_API_BASE = import.meta.env.VITE_API_BASE as string | undefined;
-const BASE_URL = VITE_API_BASE?.trim() || "https://slateserver1.onrender.com";
+const BASE_URL = VITE_API_BASE?.trim() || "https://deepscode-backend-end.onrender.com";
 
 /** Broadcast payload for the raise-hand feature (see registerLiveClassSockets
  * on the backend — requires a small server-side addition, see PR notes). */

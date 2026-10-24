@@ -1,9 +1,9 @@
 
 import axios from "axios";
 
-// .env:  VITE_API_BASE=https://slateserver1.onrender.com
+// .env:  VITE_API_BASE=https://deepscode-backend-end.onrender.com
 // We append /api here so every call automatically hits /api/courses, /api/courses/:slug etc.
-const BASE = (import.meta.env.VITE_API_BASE ?? "https://slateserver1.onrender.com") + "/api";
+const BASE = (import.meta.env.VITE_API_BASE ?? "https://deepscode-backend-end.onrender.com") + "/api";
 
 const api = axios.create({ baseURL: BASE });
 

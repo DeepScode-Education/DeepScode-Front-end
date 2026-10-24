@@ -7,7 +7,7 @@
 // import { Phone, MessageCircle, Clock, Flame, AlertTriangle, ChevronRight, Target } from "lucide-react";
 // import { cn } from "@/lib/utils";
 
-// const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+// const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 // // Reads the JWT from localStorage and includes it in requests
 // const authHeaders = () => {
@@ -283,7 +283,7 @@ import { Badge } from "@/components/ui/badge";
 import { Phone, MessageCircle, Clock, Flame, AlertTriangle, ChevronRight, Target } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 // Reads the JWT from localStorage and includes it in requests
 const authHeaders = () => {

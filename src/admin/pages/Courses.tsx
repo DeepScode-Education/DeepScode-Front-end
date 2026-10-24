@@ -10,7 +10,7 @@ import StatusBadge from "../components/StatusBadge";
 import { parseApiError, ApiError } from "@/lib/apiError";
 
 // ─── API ───────────────────────────────────────────────────────────────────────
-const BASE = (import.meta.env.VITE_API_BASE ?? "https://slateserver1.onrender.com") + "/api";
+const BASE = (import.meta.env.VITE_API_BASE ?? "https://deepscode-backend-end.onrender.com") + "/api";
 
 function getToken() {
   return (

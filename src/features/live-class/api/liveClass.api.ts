@@ -1,7 +1,7 @@
 import { getToken, getAdminToken } from "@/integrations/client";
 
 const VITE_API_BASE = import.meta.env.VITE_API_BASE as string | undefined;
-const BASE_URL = VITE_API_BASE?.trim() || "https://slateserver1.onrender.com";
+const BASE_URL = VITE_API_BASE?.trim() || "https://deepscode-backend-end.onrender.com";
 
 import type {
   LiveClass,

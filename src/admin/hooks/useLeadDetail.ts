@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import type { Lead, LeadFees, LeadParentInfo } from "./useLeads";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 const authHeaders = (includeJson = true): HeadersInit => {
   const token = localStorage.getItem("token");

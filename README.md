@@ -79,7 +79,7 @@ bloom-skills-suite/
    - Create a `.env` file in the project root
    - Add your backend URL and any other required env variables
    ```env
-   VITE_API_BASE=https://slateserver1.onrender.com
+   VITE_API_BASE=https://deepscode-backend-end.onrender.com
    # Optional legacy Supabase variables if still needed by old code paths
    # VITE_SUPABASE_URL=your_supabase_url
    # VITE_SUPABASE_ANON_KEY=your_supabase_anon_key

@@ -1,9 +1,9 @@
 // const VITE_API_BASE = import.meta.env.VITE_API_BASE as string | undefined;
-// export const BASE_URL = VITE_API_BASE?.trim() || "https://slateserver1.onrender.com";
+// export const BASE_URL = VITE_API_BASE?.trim() || "https://deepscode-backend-end.onrender.com";
 
 // if (!VITE_API_BASE) {
 //   console.warn(
-//     "VITE_API_BASE is not set in .env. Falling back to https://slateserver1.onrender.com."
+//     "VITE_API_BASE is not set in .env. Falling back to https://deepscode-backend-end.onrender.com."
 //   );
 // }
 
@@ -3151,11 +3151,11 @@
 
 
 const VITE_API_BASE = import.meta.env.VITE_API_BASE as string | undefined;
-export const BASE_URL = VITE_API_BASE?.trim() || "https://slateserver1.onrender.com";
+export const BASE_URL = VITE_API_BASE?.trim() || "https://deepscode-backend-end.onrender.com";
 
 if (!VITE_API_BASE) {
   console.warn(
-    "VITE_API_BASE is not set in .env. Falling back to https://slateserver1.onrender.com."
+    "VITE_API_BASE is not set in .env. Falling back to https://deepscode-backend-end.onrender.com."
   );
 }
 

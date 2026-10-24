@@ -6,7 +6,7 @@
 // import DataTable, { StatusBadge } from "../../components/DataTable";
 // import { Button } from "@/components/ui/button";
 
-// const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+// const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 // const authHeaders = (): HeadersInit => {
 //   const token = localStorage.getItem("token");
@@ -324,7 +324,7 @@ import CounsellorLayout from "../../components/CounsellorLayout";
 import DataTable, { StatusBadge } from "../../components/DataTable";
 import { Button } from "@/components/ui/button";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 const authHeaders = (): HeadersInit => {
   const token = localStorage.getItem("token");

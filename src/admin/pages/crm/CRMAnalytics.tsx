@@ -6,7 +6,7 @@
 // } from "recharts";
 // import AdminLayout from "../../components/AdminLayout";
 
-// const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+// const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 // const COLORS = ["hsl(var(--primary))", "#10b981", "#f59e0b", "#8b5cf6", "#06b6d4"];
 
@@ -148,7 +148,7 @@ import {
 } from "recharts";
 import AdminLayout from "../../components/AdminLayout";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://slateserver1.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://deepscode-backend-end.onrender.com";
 
 const COLORS = ["hsl(var(--primary))", "#10b981", "#f59e0b", "#8b5cf6", "#06b6d4"];
 

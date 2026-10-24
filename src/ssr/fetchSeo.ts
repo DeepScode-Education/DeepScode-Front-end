@@ -5,7 +5,7 @@ const API_BASE =
   (
     (typeof import.meta !== "undefined" && import.meta.env?.VITE_API_BASE) ||
     process.env.VITE_API_BASE ||
-    "https://slateserver1.onrender.com"
+    "https://deepscode-backend-end.onrender.com"
   ) + "/api";
 
 // This module only ever runs server-side (Vercel's api/ssr.ts function, or
