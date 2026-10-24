@@ -64,7 +64,7 @@ const BlogDetailPage = () => {
         descriptionMetas.slice(1).forEach((duplicate) => duplicate.remove());
 
         if (!post) {
-            document.title = "Slate Academy";
+            document.title = "deepScode Education";
             descriptionMetas.forEach((meta) => meta.remove());
             return;
         }
@@ -79,7 +79,7 @@ const BlogDetailPage = () => {
         meta.content = post.metaDescription || post.shortDescription;
 
         return () => {
-            document.title = "Slate Academy";
+            document.title = "deepScode Education";
             document.querySelectorAll('meta[name="description"]').forEach((descriptionMeta) => {
                 descriptionMeta.remove();
             });

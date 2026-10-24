@@ -113,7 +113,7 @@ const Login = () => {
           >
             <div className="flex items-center gap-5 mb-8 ml-4">
               <span className="text-2xl font-bold text-white foreground tracking-tight  ">
-                Slate Academy
+                deepScode Education
               </span>
             </div>
             <h2 className="text-4xl font-extrabold text-gray-100 leading-tight mb-4">
@@ -159,7 +159,7 @@ const Login = () => {
           <div className="flex items-center justify-between gap-2 mb-10 lg:hidden">
             <div className="flex items-center gap-2">
               <span className="text-xl font-bold text-foreground tracking-tight">
-                Slate Academy
+                deepScode Education
               </span>
             </div>
             <Button

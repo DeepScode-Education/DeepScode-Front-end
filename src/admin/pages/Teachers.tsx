@@ -540,7 +540,7 @@ const MentorModal = ({
                 id="company"
                 value={form.company}
                 onChange={(e) => set("company", e.target.value)}
-                placeholder="Slate Academy"
+                placeholder="deepScode Education"
                 className="h-9 text-sm"
               />
             </Field>

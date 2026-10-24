@@ -7,7 +7,7 @@
 // const HiringPartners = () => (
 //   <AdminLayout
 //     title="Hiring Partners"
-//     subtitle="Companies actively hiring Slate Academy graduates."
+//     subtitle="Companies actively hiring deepScode Education graduates."
 //     actions={<Button size="sm"><Plus size={14} /> Add Partner</Button>}
 //   >
 //     <div className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-4">
@@ -368,7 +368,7 @@ const HiringPartners = () => {
   return (
     <AdminLayout
       title="Hiring Partners"
-      subtitle="Companies actively hiring Slate Academy graduates."
+      subtitle="Companies actively hiring deepScode Education graduates."
       actions={
         <Button size="sm" className="text-white" onClick={openAddDialog}>
           <Plus size={14} /> Add Partner
@@ -558,7 +558,7 @@ const HiringPartners = () => {
             <DialogDescription>
               {editingPartner
                 ? "Update this hiring partner's details."
-                : "Add a new company that hires Slate Academy graduates."}
+                : "Add a new company that hires deepScode Education graduates."}
             </DialogDescription>
           </DialogHeader>
 

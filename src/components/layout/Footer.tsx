@@ -61,11 +61,11 @@ const Footer = () => {
   <Link
           to="/"
           className="flex shrink-0 items-center gap-2 text-foreground rounded-lg focus:outline-none"
-          aria-label="Slate Academy Home"
+          aria-label="deepScode Education Home"
         >
           <img
             src={logo}
-            alt="Slate Academy "
+            alt="deepScode Education "
             className="h-9 w-auto shrink-0 object-contain lg:h-10"
           />
         </Link>
@@ -140,7 +140,7 @@ const Footer = () => {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © 2026 Slate Academy. All rights reserved.
+            © 2026 deepScode Education. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground">

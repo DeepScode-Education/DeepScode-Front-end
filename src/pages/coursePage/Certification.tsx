@@ -4,7 +4,7 @@
 // const certifications = [
 //   {
 //     icon: BadgeCheck,
-//     title: "Slate Academy Certification",
+//     title: "deepScode Education Certification",
 //     desc: "Verified completion credential with QR validation.",
 //   },
 //   {
@@ -44,7 +44,7 @@
 //                     <span className="text-white font-black text-lg">SA</span>
 //                   </div>
 //                   <p className="text-slate-400 text-xs uppercase tracking-widest mb-2">
-//                     The Slate Academy
+//                     The deepScode Education
 //                   </p>
 //                   <p className="text-white font-bold text-xl mb-1">
 //                     Course Certificate
@@ -141,7 +141,7 @@ const Certification = ({ certification }: CertificationProps) => {
   const certCards = [
     {
       icon : BadgeCheck,
-      title: "Slate Academy Certification",
+      title: "deepScode Education Certification",
       desc : "Verified completion credential with QR validation.",
     },
     {
@@ -176,7 +176,7 @@ const Certification = ({ certification }: CertificationProps) => {
                 <div className="w-12 h-12 rounded-full bg-[#0037FF] flex items-center justify-center mb-4">
                   <span className="text-white font-black text-lg">SA</span>
                 </div>
-                <p className="text-slate-400 text-xs uppercase tracking-widest mb-2">The Slate Academy</p>
+                <p className="text-slate-400 text-xs uppercase tracking-widest mb-2">The deepScode Education</p>
                 <p className="text-white font-bold text-xl mb-1">Course Certificate</p>
                 <div className="w-24 h-1 bg-amber-400/60 rounded-full mb-3" />
                 {certification && (

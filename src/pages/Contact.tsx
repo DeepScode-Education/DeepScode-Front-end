@@ -253,7 +253,7 @@ const Contact = (props: Props) => {
   <h3 className="mt-2 font-semibold">Address</h3>
 
   <p className="text-sm text-gray-500 mt-2 leading-6">
-    Slate Academy, Fourth Floor, B-104,
+    deepScode Education, Fourth Floor, B-104,
     <br />
     behind Triveni Complex,
     <br />

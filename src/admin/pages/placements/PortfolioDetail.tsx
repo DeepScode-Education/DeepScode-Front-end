@@ -897,7 +897,7 @@ const AdminPortfolioDetail = () => {
                 <Textarea
                   value={studentReviewDraft}
                   onChange={(e) => setStudentReviewDraft(e.target.value)}
-                  placeholder="e.g. Slate Academy helped me land my first design role…"
+                  placeholder="e.g. deepScode Education helped me land my first design role…"
                   rows={4}
                 />
 

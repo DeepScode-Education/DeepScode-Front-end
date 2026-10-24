@@ -136,7 +136,7 @@ const Dashboard = () => {
   return (
     <AdminLayout
       title="Super Admin Dashboard"
-      subtitle="Overview of Slate Academy — students, revenue, leads, courses and activity."
+      subtitle="Overview of deepScode Education — students, revenue, leads, courses and activity."
     >
       {/* ------------------------------------------------------------------ */}
       {/* Top Stats                                                          */}

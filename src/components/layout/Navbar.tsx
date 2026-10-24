@@ -137,11 +137,11 @@ const Navbar = () => {
         <Link
           to="/"
           className="flex shrink-0 items-center gap-2 text-foreground rounded-lg focus:outline-none"
-          aria-label="Slate Academy Home"
+          aria-label="deepScode Education Home"
         >
           <img
             src={logo}
-            alt="Slate Academy"
+            alt="deepScode Education"
             className="h-9 w-auto shrink-0 object-contain lg:h-10"
           />
         </Link>

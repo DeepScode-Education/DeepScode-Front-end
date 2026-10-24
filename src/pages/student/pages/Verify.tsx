@@ -40,7 +40,7 @@ const VerifyCertificate = () => {
           </div>
           <div>
             <h1 className="text-lg font-bold">Certificate Verification</h1>
-            <p className="text-sm text-gray-500">Slate Academy</p>
+            <p className="text-sm text-gray-500">deepScode Education</p>
           </div>
         </div>
 

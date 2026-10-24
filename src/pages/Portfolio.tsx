@@ -326,7 +326,7 @@ const studentName = (p: PublicPortfolioItem) => p.studentName || "Slate Student"
             className="mx-auto mt-4 max-w-xl text-muted-foreground font-semibold"
           >
             Explore outstanding work from our students — built with real skills
-            learned at Slate Academy.
+            learned at deepScode Education.
           </motion.p>
         </div>
       </section>
@@ -630,7 +630,7 @@ const studentName = (p: PublicPortfolioItem) => p.studentName || "Slate Student"
               Hear From Our Students
             </h2>
             <p className="mx-auto mt-3 max-w-lg text-muted-foreground">
-              Watch how Slate Academy helped our students land their dream
+              Watch how deepScode Education helped our students land their dream
               roles.
             </p>
           </div>

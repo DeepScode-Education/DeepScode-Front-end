@@ -137,7 +137,7 @@ setEmailVerified(false);
                 className="text-2xl font-bold text-secondary-foreground tracking-tight cursor-pointer"
                 onClick={() => navigate("/")}
               >
-                Slate Academy
+                deepScode Education
               </span>
             </div>
             <h2 className="text-4xl font-extrabold text-secondary-foreground leading-tight mb-4">
@@ -186,7 +186,7 @@ setEmailVerified(false);
                 <GraduationCap className="h-5 w-5 text-[#0037FF]-foreground" />
               </div> */}
               <span className="text-xl font-bold text-foreground tracking-tight">
-                Slate Academy
+                deepScode Education
               </span>
             </div>
             <Button
@@ -214,7 +214,7 @@ setEmailVerified(false);
             <h1 className="text-3xl font-bold text-foreground mb-2">
               Create account
             </h1>
-            <p className="text-muted-foreground">Join Slate Academy for free</p>
+            <p className="text-muted-foreground">Join deepScode Education for free</p>
           </div>
 
           <form onSubmit={handleSignup} className="space-y-5">

@@ -102,12 +102,12 @@ const SidebarContent = ({
       <Link
         to="/student"
         className="flex items-center gap-2 rounded-lg py-3 pl-6"
-        aria-label="Slate Academy Home"
+        aria-label="deepScode Education Home"
         onClick={onNavigate}
       >
-        <img src={logo} alt="Slate Academy" className="h-9 w-auto shrink-0 object-contain lg:h-10" />
+        <img src={logo} alt="deepScode Education" className="h-9 w-auto shrink-0 object-contain lg:h-10" />
         <div className="leading-tight">
-          {/* <div className="text-sm font-semibold text-foreground">Slate Academy</div> */}
+          {/* <div className="text-sm font-semibold text-foreground">deepScode Education</div> */}
           {/* <div className="text-[11px] text-muted-foreground">Student Portal</div> */}
         </div>
       </Link>

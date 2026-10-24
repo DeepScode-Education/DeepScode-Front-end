@@ -105,7 +105,7 @@ const DownloadCertificate = () => {
 
                     <p className="text-sm font-medium text-gray-500">
 
-                      Slate Academy
+                      deepScode Education
 
                     </p>
 

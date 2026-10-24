@@ -16,7 +16,7 @@ const WhatsAppButton = () => {
   const phone = "918700460998";
 
   const handleCourseSelect = (course: string) => {
-    const message = `Hi Slate Academy,
+    const message = `Hi deepScode Education,
 
 I am interested in the ${course} course.
 

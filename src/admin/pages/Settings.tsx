@@ -21,7 +21,7 @@ const Settings = () => (
         <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
           <div>
             <label className="text-xs font-medium">Academy Name</label>
-            <Input className="mt-1 h-9" defaultValue="The Slate Academy" />
+            <Input className="mt-1 h-9" defaultValue="The deepScode Education" />
           </div>
           <div>
             <label className="text-xs font-medium">Default Currency</label>

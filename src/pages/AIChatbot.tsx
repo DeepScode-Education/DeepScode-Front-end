@@ -17,7 +17,7 @@ const suggestedPrompts = [
 
 const AIChatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
-    { role: "ai", content: "Hi! I'm your Slate Academy learning assistant. 👋 I can help you choose courses, explain concepts, or build a personalized learning roadmap. What would you like to explore?" },
+    { role: "ai", content: "Hi! I'm your deepScode Education learning assistant. 👋 I can help you choose courses, explain concepts, or build a personalized learning roadmap. What would you like to explore?" },
   ]);
   const [input, setInput] = useState("");
   const [chats, setChats] = useState(["Today's Chat"]);

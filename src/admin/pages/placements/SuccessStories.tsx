@@ -6,7 +6,7 @@ import { successStories } from "../../data/mock";
 const SuccessStories = () => (
   <AdminLayout
     title="Success Stories"
-    subtitle="Real career outcomes from Slate Academy graduates."
+    subtitle="Real career outcomes from deepScode Education graduates."
     actions={<Button size="sm"><Plus size={14} /> New Story</Button>}
   >
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">

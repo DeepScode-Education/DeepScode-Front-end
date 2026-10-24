@@ -909,13 +909,13 @@ function CourseModal({ editing, onClose, onSaved }: {
             <div>
               <label className={lbl}>SEO title <span className="text-muted-foreground/60">(max 160 chars)</span></label>
               <input value={form.seo.title} onChange={(e) => set("seo", { ...form.seo, title: e.target.value })}
-                placeholder="e.g., Slate Academy: UI UX Design Course in Delhi" className={inp} />
+                placeholder="e.g., deepScode Education: UI UX Design Course in Delhi" className={inp} />
               <p className="text-xs text-muted-foreground mt-1">{form.seo.title.length}/160</p>
             </div>
             <div>
               <label className={lbl}>Meta description <span className="text-muted-foreground/60">(max 320 chars)</span></label>
               <textarea value={form.seo.description} onChange={(e) => set("seo", { ...form.seo, description: e.target.value })}
-                rows={2} placeholder="e.g., Start your UI UX Design Course at Slate Academy..."
+                rows={2} placeholder="e.g., Start your UI UX Design Course at deepScode Education..."
                 className={`${inp} resize-none`} />
               <p className="text-xs text-muted-foreground mt-1">{form.seo.description.length}/320</p>
             </div>

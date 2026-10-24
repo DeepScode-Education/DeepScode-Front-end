@@ -53,54 +53,54 @@ export interface SeoResult {
 
 const STATIC_SEO: Record<string, SeoResult> = {
   "/": {
-    title: "Slate Academy: Best Designing and Marketing Institute in Delhi",
+    title: "deepScode Education: Best Designing and Marketing Institute in Delhi",
     description: "Join the best institute in Delhi for Graphic Design, UI/UX, Motion Graphics, 3D Design, Digital Marketing and Data Analytics courses with 100% placement support.",
-    keywords: ["graphic design course delhi", "ui ux design institute", "digital marketing course", "Slate Academy"],
+    keywords: ["graphic design course delhi", "ui ux design institute", "digital marketing course", "deepScode Education"],
     canonical: "https://slate-academy.com/",
   },
   "/courses": {
-    title: "Slate Academy: Best Designing & Marketing Institute in Delhi",
+    title: "deepScode Education: Best Designing & Marketing Institute in Delhi",
     description: "Join the best institute in Delhi for Graphic Design, UI/UX, Motion Graphics, 3D Design, Digital Marketing & Data Analytics courses with 100% placement support.",
     canonical: "https://slate-academy.com/courses",
   },
  "/about":{
-  title:"About Slate Academy | Best Design Institute in South Delhi",
+  title:"About deepScode Education | Best Design Institute in South Delhi",
   description:
-    "Learn why Slate Academy is the best graphic design and digital marketing institute in South Delhi, offering industry-focused training, expert mentors, and placement support.",
+    "Learn why deepScode Education is the best graphic design and digital marketing institute in South Delhi, offering industry-focused training, expert mentors, and placement support.",
   canonical:"https://slate-academy.com/about",
 },
 
   "/mentors": {
-    title: "Our Mentors — Slate Academy",
-    description: "Meet the industry experts and mentors at Slate Academy who guide students toward successful careers in design and marketing.",
+    title: "Our Mentors — deepScode Education",
+    description: "Meet the industry experts and mentors at deepScode Education who guide students toward successful careers in design and marketing.",
     canonical: "https://slate-academy.com/mentors",
   },
   "/placements": {
   title: "Placements | Best Design & Marketing Institute in South Delhi",
   description:
-    "Explore Slate Academy placements with student success stories, hiring partners, career guidance, and 100% placement assistance for creative careers.",
+    "Explore deepScode Education placements with student success stories, hiring partners, career guidance, and 100% placement assistance for creative careers.",
   keywords: [
-    "Slate Academy placements",
+    "deepScode Education placements",
     "design institute placement",
     "graphic design jobs delhi"
   ],
   canonical: "https://slate-academy.com/placements",
 },
 "/contact":{
-  title:"Contact Slate Academy | Design Institute in South Delhi",
+  title:"Contact deepScode Education | Design Institute in South Delhi",
   description:
-    "Get in touch with Slate Academy for admissions, course details, fees, placements, and free career counselling.",
+    "Get in touch with deepScode Education for admissions, course details, fees, placements, and free career counselling.",
   canonical:"https://slate-academy.com/contact",
 },
   "/blog": {
-    title: "Blog — Slate Academy",
-    description: "Read the latest articles on design, marketing, and career tips from Slate Academy experts.",
+    title: "Blog — deepScode Education",
+    description: "Read the latest articles on design, marketing, and career tips from deepScode Education experts.",
     canonical: "https://slate-academy.com/blog",
   },
   "/knowledge-hub": {
   title: "Knowledge Hub | Design & Digital Marketing Blogs",
   description:
-    "Read expert articles on graphic design, digital marketing, UI/UX, motion graphics, career tips, and industry trends from Slate Academy.",
+    "Read expert articles on graphic design, digital marketing, UI/UX, motion graphics, career tips, and industry trends from deepScode Education.",
   keywords:[
     "design blogs",
     "digital marketing blogs",
@@ -111,29 +111,29 @@ const STATIC_SEO: Record<string, SeoResult> = {
 
 
   "/support":{
-  title:"Support | Contact Slate Academy South Delhi",
+  title:"Support | Contact deepScode Education South Delhi",
   description:
-    "Need help? Contact Slate Academy for course information, admissions, placements, technical support, and student assistance.",
+    "Need help? Contact deepScode Education for course information, admissions, placements, technical support, and student assistance.",
   canonical:"https://slate-academy.com/support",
 },
 
   "/portfolio": {
   title:"Student Portfolio | Graphic Design & UI UX Projects",
   description:
-    "Discover creative student portfolios featuring graphic design, UI/UX, motion graphics, branding, and digital marketing projects by Slate Academy learners.",
+    "Discover creative student portfolios featuring graphic design, UI/UX, motion graphics, branding, and digital marketing projects by deepScode Education learners.",
   canonical:"https://slate-academy.com/portfolio",
 },
 
   "/ai-chat": {
-    title: "Slate Academy: Best Designing & Marketing Institute in Delhi",
+    title: "deepScode Education: Best Designing & Marketing Institute in Delhi",
     description: "Join the best institute in Delhi for Graphic Design, UI/UX, Motion Graphics, 3D Design, Digital Marketing & Data Analytics courses with 100% placement support.",
     canonical: "https://slate-academy.com/ai-chat",
   },  
 
   "/careers":{
-  title:"Careers at Slate Academy | Jobs in South Delhi",
+  title:"Careers at deepScode Education | Jobs in South Delhi",
   description:
-    "Join Slate Academy and explore career opportunities in graphic design, digital marketing, UI/UX, animation, and education.",
+    "Join deepScode Education and explore career opportunities in graphic design, digital marketing, UI/UX, animation, and education.",
   canonical:"https://slate-academy.com/careers",
 },
 

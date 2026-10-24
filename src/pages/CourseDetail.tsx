@@ -102,7 +102,7 @@ const CourseDetail = () => {
   useEffect(() => {
     if (!course) return;
     const seo = course.seo;
-    document.title = seo?.title || course.title || "Slate Academy";
+    document.title = seo?.title || course.title || "deepScode Education";
     const metaDesc = document.querySelector('meta[name="description"]') as HTMLMetaElement | null;
     if (metaDesc) metaDesc.content = seo?.description || "";
     const canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;

@@ -97,7 +97,7 @@ export const useStudentCertificate = () => {
     if (!currentCertificate || !navigator.share) return;
     try {
       await navigator.share({
-        title: "Slate Academy Certificate",
+        title: "deepScode Education Certificate",
         text: "Check out my certificate.",
         url: currentCertificate.verificationUrl,
       });

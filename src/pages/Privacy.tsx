@@ -36,10 +36,10 @@ const Privacy = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>
-        <title>Privacy Policy – Slate Academy | EdTech Privacy India</title>
+        <title>Privacy Policy – deepScode Education | EdTech Privacy India</title>
         <meta
           name="description"
-          content="This Privacy Policy explains how Slate Academy collects, uses, and protects your personal data while using our online learning platform. Compliant with India IT Act, DPDP Act 2023, and global standards."
+          content="This Privacy Policy explains how deepScode Education collects, uses, and protects your personal data while using our online learning platform. Compliant with India IT Act, DPDP Act 2023, and global standards."
         />
         <meta
           name="keywords"
@@ -65,7 +65,7 @@ const Privacy = () => {
               </div>
               <div>
                 <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-                  Privacy Policy – Slate Academy
+                  Privacy Policy – deepScode Education
                 </h1>
                 <p className="mt-3 text-base md:text-lg text-muted-foreground max-w-3xl">
                   How we collect, use, store, and protect your personal data on
@@ -125,7 +125,7 @@ const Privacy = () => {
               {/* Intro */}
               <div className="prose-block">
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  At <strong className="text-foreground">Slate Academy</strong>,
+                  At <strong className="text-foreground">deepScode Education</strong>,
                   your privacy matters. We are committed to protecting your
                   personal information and being transparent about how we
                   collect, use, and safeguard your data. This Privacy Policy is
@@ -170,17 +170,17 @@ const Privacy = () => {
                   </li>
                   <li>
                     <strong className="text-foreground">User:</strong> Any
-                    individual accessing or using Slate Academy's services.
+                    individual accessing or using deepScode Education's services.
                   </li>
                   <li>
                     <strong className="text-foreground">Platform:</strong> The
-                    Slate Academy website, mobile experience, and related
+                    deepScode Education website, mobile experience, and related
                     services.
                   </li>
                   <li>
                     <strong className="text-foreground">Services:</strong>{" "}
                     Online courses, learning tools, certificates, and support
-                    offered by Slate Academy.
+                    offered by deepScode Education.
                   </li>
                 </ul>
               </section>
@@ -474,7 +474,7 @@ const Privacy = () => {
                   11. Children's Privacy
                 </h2>
                 <p className="text-muted-foreground">
-                  Slate Academy is intended for users{" "}
+                  deepScode Education is intended for users{" "}
                   <strong className="text-foreground">
                     18 years of age and above
                   </strong>
@@ -513,7 +513,7 @@ const Privacy = () => {
                     <p>
                       <strong className="text-foreground">Name:</strong>{" "}
                       <span className="text-muted-foreground">
-                        Grievance Officer, Slate Academy
+                        Grievance Officer, deepScode Education
                       </span>
                     </p>
                     <p>
@@ -587,7 +587,7 @@ const Privacy = () => {
               <Separator />
 
               <p className="text-xs text-muted-foreground text-center">
-                © {new Date().getFullYear()} Slate Academy. All rights reserved.
+                © {new Date().getFullYear()} deepScode Education. All rights reserved.
                 This Privacy Policy is governed by the laws of India.
               </p>
             </article>

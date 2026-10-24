@@ -101,7 +101,7 @@ const HeroSection = () => {
     return (
       <section className="relative overflow-hidden">
         <h1 className="sr-only">
-          Slate Academy: Best Designing and Marketing Institute in Delhi
+          deepScode Education: Best Designing and Marketing Institute in Delhi
         </h1>
         <div className="container py-10 lg:py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 lg:gap-16">
@@ -137,7 +137,7 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
       <h1 className="sr-only">
-        Slate Academy: Best Designing and Marketing Institute in Delhi
+        deepScode Education: Best Designing and Marketing Institute in Delhi
       </h1>
 
       <div className="container py-10 lg:py-20">
